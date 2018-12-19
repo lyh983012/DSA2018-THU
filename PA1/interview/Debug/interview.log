@@ -1,0 +1,18 @@
+﻿生成启动时间为 2018/9/17 22:35:46。
+     1>项目“Z:\Downloads\Cpp\homework1\interview\interview.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source.cpp
+         source.cpp
+     1>z:\downloads\cpp\homework1\interview\source.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>z:\downloads\cpp\homework1\interview\source.cpp(72): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(290) : 参见“scanf”的声明
+     1>z:\downloads\cpp\homework1\interview\source.cpp(76): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(290) : 参见“scanf”的声明
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Downloads\Cpp\homework1\Debug\interview.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Downloads\Cpp\homework1\Debug\interview.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Downloads\Cpp\homework1\Debug\interview.lib" /MACHINE:X86 Debug\source.obj
+         interview.vcxproj -> Z:\Downloads\Cpp\homework1\Debug\interview.exe
+     1>已完成生成项目“Z:\Downloads\Cpp\homework1\interview\interview.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.44
